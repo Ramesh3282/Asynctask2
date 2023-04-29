@@ -1,0 +1,69 @@
+#container{
+   display: flex;
+   flex-wrap: wrap;
+    
+}
+body{
+    background-color: rgb(238, 29, 193);
+}
+.card{
+
+  
+  margin: 5px;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  font-size: medium;
+  text-align: center;
+  align-items: center;
+  background: #c1d8df;
+  padding: 20px;
+  color: rgb(18, 25, 216);
+  flex: 1 1 calc(17% - 1em);
+  
+ 
+}
+
+#next{
+   
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(213, 220, 17);
+  color: white;
+
+}
+
+#previous{
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(213, 220, 17);
+  color: white;
+ 
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
